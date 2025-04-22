@@ -1,4 +1,4 @@
-const reduce = function (array, iterator, accumulator) {
+export const reduce = function (array, iterator, accumulator) {
     if (accumulator !== undefined) {
         for (let i = 0; i < array.length; i++) {
             accumulator = iterator(accumulator, array[i])
